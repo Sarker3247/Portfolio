@@ -1,15 +1,16 @@
 nav {
-    display:flex;
+    display: flex;
     justify-content: space-between;
+    margin-left: 130px;
 }
 
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 
 }
 
-.nav-title{
+.nav-title {
     color: #181818;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: Open Sans;
@@ -19,8 +20,8 @@ body{
     line-height: normal;
 }
 
-.text-primary{
-    color:#FD6E0A ;
+.text-primary {
+    color: #FD6E0A;
 }
 
 nav>ul {
@@ -29,21 +30,22 @@ nav>ul {
     ;
 }
 
-nav>ul>li{
+nav>ul>li {
     list-style: none;
     margin-right: 50px;
-    
+
 }
 
-nav>ul>li>a{
+nav>ul>li>a {
     text-decoration: none;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
-    border: 0;;
-    font-weight:700;
+    border: 0;
+    ;
+    font-weight: 700;
     color: white;
     width: 150px;
     height: 64px;
@@ -53,17 +55,53 @@ nav>ul>li>a{
 
 /* heaedr relaetd styles */
 
-.header{
-    background-color:white;
+.header {
+    background-color: white;
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
 
 }
 
-.banner{
-    padding:30px 30px 30px 150px;
+.banner {
+    padding: 30px 30px 0px 30px;
     display: flex;
     align-items: center;
 }
 
-.banner .profile-pic{
+.banner .profile-pic {
     width: 500px;
+    ;
+}
+
+/* maain section styles  */
+
+
+/* about me section  */
+
+.aboutme {
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top:130px;
+}
+
+.about-des {
+    color:  #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding:75x 50px 75px 50px;
+
+}
+
+.about{
+    margin: 130px 0px;
 }

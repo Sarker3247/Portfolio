@@ -50,3 +50,20 @@ nav>ul>li>a{
     flex-shrink: 0;
     padding 15px 35px;
 }
+
+/* heaedr relaetd styles */
+
+.header{
+    background-color:white;
+
+}
+
+.banner{
+    padding:30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic{
+    width: 500px;
+}
